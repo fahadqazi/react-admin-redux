@@ -13,6 +13,6 @@ class App extends React.Component{
 
 App.PropTypes = {
     children: PropTypes.objects.isRequired
-}
+};
 
 export default App;
