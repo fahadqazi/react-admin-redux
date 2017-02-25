@@ -5,7 +5,7 @@ class CoursePage extends Component{
         super(props, context);
 
         this.state = {
-            course: { title: '' }
+            course: { title: null }
         };
 
         this.onTitleChange = this.onTitleChange.bind(this);
